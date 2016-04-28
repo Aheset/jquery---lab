@@ -1,0 +1,67 @@
+body{
+	margin: 0px;
+}
+
+#container{
+	width: 800px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1opx;
+	margin-bottom: 20px;
+	border: solid red;
+}
+
+#header{
+	height: 150px;
+	background-color: #ccc;
+}
+
+#menu{
+	height: 50px;
+	background-color: #666;
+	float: right;
+}
+
+menu ul{
+	margin: 0;
+	padding:0;
+}
+
+menu li{
+	list-style-type: none;
+	float: left;
+	disply: block;
+	width: 150px;
+	height: 60px;
+	text-align: center;
+	line-height: 55px;
+	font-family: Tahoma;
+	font-size: 18px;
+}
+
+menu li a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+
+#sidebar{
+	width: 150px;
+	height: 400px;
+	border: solid blue;
+}
+
+#mainbody{
+	width: 650px;
+	height: 400px;
+	border: solid purple;
+}
+
+#footer{
+	height: 100px;
+	margin-bottom: 20px;
+	clear: both;
+	border: solid red;
+}
